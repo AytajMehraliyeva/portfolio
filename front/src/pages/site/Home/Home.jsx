@@ -10,7 +10,7 @@ const Home = () => {
     <>
     <Contact/>
     <div className='opacity'>
-    <div className='keyboard'>
+    <div className='keyboard' id='keyboard'>
   
     </div>
     <div className='welcome'>

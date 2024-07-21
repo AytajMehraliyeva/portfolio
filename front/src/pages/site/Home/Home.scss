@@ -170,6 +170,10 @@
     .me {
         width: 70%;
     }
+    #keyboard {
+        background-size: cover;
+        background-attachment: unset;
+    }
 }
 
 @media (max-width: 480px) {
@@ -195,5 +199,15 @@
     .code {
         width: 100%;
         margin: 10px 0;
+    }
+    .keyboard {
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:320px) {
+    #keyboard {
+        background-size: cover;
+        background-attachment: unset;
     }
 }
