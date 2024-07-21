@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    height: 350px;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.916);
+    img {
+        width: 70px;
+        margin: auto;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+    }
+    span {
+        text-shadow: 1px 1px 2px white, 0 0 1em rgb(199, 0, 199), 0 0 0.2em rgba(48, 0, 48, 0.493);
+        color: rgb(189, 148, 255);
+        font-family: "Nunito", sans-serif;
+        font-size: 40px;
+        white-space: pre-wrap;
+        margin: 20px;
+    }
+    hr {
+        width: 70%;
+        margin: 10px auto;
+    }
+}
+
+.slick-slide {
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px 15px;
+    background: linear-gradient(to bottom, rgb(5, 0, 62), rgb(36, 0, 36));
+    padding: 10px;
+    color: white;
+    box-shadow: rgba(106, 124, 145, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    height: 150px;
+    font-size: 18px;
+    p {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        white-space: pre-wrap;
+    }
+}
+
+.slick-slide:hover {
+    transform: scale(1.1);
+}
+
+.slick-prev,
+.slick-next {
+    display: none !important;
+}
+
+.slick-slider {
+    .slick-track {
+        display: flex;
+    }
+    .slick-slide {
+        transition: all 0.01s ease;
+    }
+    .hover-active {
+        cursor: pointer;
+        animation: none;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .slick-slide>p {
+        font-size: 16px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .slick-slide>img {
+        width: 40px;
+    }
+    .slick-slide>p {
+        font-size: 10px;
+        margin: auto;
+    }
+    .slick-slide {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .slick-slide>p {
+        font-size: 4px;
+    }
+    .slick-slide>img {
+        width: 10px;
+    }
+}

@@ -1,0 +1,61 @@
+.contact {
+    position: fixed;
+    z-index: 555;
+    right: 0;
+    width: 100px;
+    top: 35%;
+    background: #33333300;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    display: block;
+    font-size: 40px;
+    padding: 10px 20px;
+    height: 250px;
+    text-align: center;
+    a {
+        text-decoration: none;
+    }
+    .insta {
+        font-size: 40px;
+        color: white;
+        background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af, #515bd4);
+        border-radius: 50%;
+        padding: 10px;
+        margin: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        transition: 0.3s;
+    }
+    .insta:hover {
+        box-shadow: 0px 8px 16px rgba(211, 0, 239, 0.7);
+        transform: scale(1.05);
+    }
+    .gthb {
+        font-size: 40px;
+        color: white;
+        border-radius: 50%;
+        border: 1px solid white;
+        background-color: black;
+        padding: 10px;
+        margin: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        transition: 0.3s;
+    }
+    .gthb:hover {
+        box-shadow: 0px 8px 16px rgba(203, 200, 0, 0.733);
+        transform: scale(1.05);
+    }
+    .linkedn {
+        font-size: 40px;
+        color: white;
+        background-color: #515bd4;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .linkedn:hover {
+        box-shadow: 0px 8px 16px rgba(0, 32, 239, 0.7);
+        transform: scale(1.05);
+    }
+}
