@@ -16,23 +16,23 @@ return (
 
       <ul> 
         <li>
-          <a href="#about" target='blank'>About me</a>
+          <a href="#about">About me</a>
           </li>
 
         <li >
-          <a href="#skills" target='blank'>Skills</a>
+          <a href="#skills" >Skills</a>
           </li>
        
           <li >
-          <a href="#education" target='blank'>Education</a>
+          <a href="#education" >Education</a>
           </li>
           
           <li>
-          <a href="#" target='blank'>Projects</a>
+          <a href="#" >Projects</a>
           </li>
-          
+
           <li>
-          <a href="#" target='blank'>Contact me</a>
+          <a href="#" >Contact me</a>
           </li>
       </ul>
       <FaBars className='bars' />
