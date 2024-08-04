@@ -19,8 +19,9 @@
     .welcome {
         color: white;
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 50%;
+        white-space: pre-wrap;
         transform: translate(-50%, -50%);
         background-color: rgba(255, 222, 173, 0);
         text-align: center;
@@ -30,5 +31,9 @@
         font-family: "Libre Baskerville", serif;
         text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(243, 229, 229), 0 0 0.2em rgba(48, 0, 48, 0.493);
         color: #E5E5E5;
+        p {
+            text-align: center;
+            font-size: 24px;
+        }
     }
 }

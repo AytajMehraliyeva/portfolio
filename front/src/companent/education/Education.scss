@@ -5,89 +5,99 @@
     text-align: center;
     height: auto;
     padding: 20px 0;
-    .headSpan {
-        text-shadow: 1px 1px 2px white, 0 0 1em rgb(0, 4, 214), 0 0 0.2em rgba(4, 0, 48, 0.493);
-        color: rgb(114, 136, 255);
-        font-family: "Nunito", sans-serif;
-        font-size: 32px;
-        white-space: pre-wrap;
-        margin-top: 20px;
-        margin-bottom: 10px;
-        background-color: rgba(255, 0, 0, 0);
-    }
-    hr {
-        width: 70%;
-        margin: 10px auto;
-    }
-    .mainGif {
-        display: flex;
-        padding: 10px;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        .gif {
-            width: 30%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 20px;
-            img {
-                width: 100%;
-                max-width: 720px;
-                height: auto;
-                margin-right: 20px;
-            }
-        }
-        .educateSecond {
-            width: 60%;
-            max-width: 600px;
-            padding: 10px;
-            text-align: center;
-            display: flex;
-            height: auto;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            div {
-                width: 95%;
-                max-width: 100%;
-                border-radius: 10px;
-                margin: 20px auto;
-                line-height: 1.6;
-                white-space: pre-wrap;
-                overflow: auto;
-                height: auto;
-                padding: 10px;
-                position: relative;
-                font-family: "Nunito", sans-serif;
-                color: white;
-                text-align: center;
-                font-size: 14px;
-                background: linear-gradient(to bottom, rgb(7, 0, 88), rgb(49, 0, 49));
-                transition: transform 0.3s ease;
-                .icon {
-                    position: absolute;
-                    top: 46%;
-                    right: 15px;
-                    font-size: 36px;
-                    color: rgb(255, 208, 0);
-                    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(255, 238, 0), 0 0 0.2em rgba(48, 40, 0, 0.493);
-                }
-                span {
-                    font-size: 15px;
-                    margin: 5px auto;
-                    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(214, 200, 0), 0 0 0.2em rgba(48, 40, 0, 0.493);
-                    color: rgb(255, 208, 0);
-                }
-                h4,
-                p {
-                    margin: 10px auto;
-                    text-align: left;
-                    padding: 10px;
-                    font-size: 18px;
-                }
-            }
-        }
-    }
+}
+
+.headSpan {
+    text-shadow: 1px 1px 2px white, 0 0 1em rgb(0, 4, 214), 0 0 0.2em rgba(4, 0, 48, 0.493);
+    color: rgb(114, 136, 255);
+    font-family: "Nunito", sans-serif;
+    font-size: 32px;
+    white-space: pre-wrap;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+hr {
+    width: 70%;
+    margin: 10px auto;
+}
+
+.mainGif {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gif {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.gif img {
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.educateSecond {
+    width: 60%;
+    max-width: 600px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.educateSecond div {
+    width: 95%;
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 20px auto;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    overflow: auto;
+    height: auto;
+    padding: 10px;
+    position: relative;
+    font-family: "Nunito", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    background: linear-gradient(to bottom, rgb(7, 0, 88), rgb(49, 0, 49));
+    transition: transform 0.3s ease;
+}
+
+.icon {
+    position: absolute;
+    top: 46%;
+    right: 15px;
+    font-size: 36px;
+    color: rgb(255, 208, 0);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(255, 238, 0), 0 0 0.2em rgba(48, 40, 0, 0.493);
+}
+
+span {
+    font-size: 15px;
+    margin: 5px auto;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(214, 200, 0), 0 0 0.2em rgba(48, 40, 0, 0.493);
+    color: rgb(255, 208, 0);
+}
+
+h4,
+p {
+    margin: 10px auto;
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
 }
 
 .educateSecond>div:hover {
@@ -99,27 +109,28 @@
     .mainGif {
         flex-direction: column;
         align-items: center;
-        .gif {
-            img {
-                max-width: 100%;
-            }
-        }
-        .educateSecond {
-            width: 100%;
-            div {
-                font-size: 12px;
-                width: 100%;
-                .icon {
-                    font-size: 30px;
-                }
-                #iconUni {
-                    font-size: 30px;
-                }
-                span {
-                    font-size: 12px;
-                }
-            }
-        }
+    }
+    .gif {
+        max-width: 100%;
+    }
+    .gif img {
+        max-width: 100%;
+    }
+    .educateSecond {
+        width: 100%;
+    }
+    .educateSecond div {
+        font-size: 12px;
+        width: 100%;
+    }
+    .icon {
+        font-size: 30px;
+    }
+    #iconUni {
+        font-size: 30px;
+    }
+    span {
+        font-size: 12px;
     }
 }
 
@@ -130,65 +141,61 @@
     .mainGif {
         flex-direction: column;
         align-items: center;
-        .gif {
-            img {
-                max-width: 100%;
-            }
-        }
-        .educateSecond {
-            width: 100%;
-            div {
-                font-size: 10px;
-                width: 100%;
-                .icon {
-                    font-size: 22px;
-                }
-                #iconUni {
-                    font-size: 22px;
-                }
-                span {
-                    font-size: 10px;
-                }
-                h4,
-                p {
-                    font-size: 12px;
-                }
-            }
-        }
+    }
+    .gif img {
+        max-width: 100%;
+    }
+    .educateSecond {
+        width: 100%;
+    }
+    .educateSecond div {
+        font-size: 10px;
+        width: 100%;
+    }
+    .icon {
+        font-size: 22px;
+    }
+    #iconUni {
+        font-size: 22px;
+    }
+    span {
+        font-size: 10px;
+    }
+    h4,
+    p {
+        font-size: 12px;
     }
 }
 
 @media (max-width: 320px) {
     .headSpan {
-        font-size: 20px;
+        font-size: 14px;
     }
     .mainGif {
         flex-direction: column;
         align-items: center;
-        .gif {
-            img {
-                max-width: 100%;
-            }
-        }
-        .educateSecond {
-            width: 100%;
-            div {
-                font-size: 8px;
-                width: 100%;
-                .icon {
-                    font-size: 15px;
-                }
-                #iconUni {
-                    font-size: 15px;
-                }
-                span {
-                    font-size: 8px;
-                }
-                h4,
-                p {
-                    font-size: 5px; // Adjust font size for readability on very small screens
-                }
-            }
-        }
+    }
+    .gif img {
+        max-width: 100%;
+    }
+    .educateSecond {
+        width: 100%;
+    }
+    .educateSecond div {
+        font-size: 8px;
+        width: 100%;
+    }
+    .icon {
+        font-size: 15px;
+    }
+    #iconUni {
+        font-size: 15px;
+    }
+    span {
+        font-size: 8px;
+    }
+    h4,
+    p {
+        font-size: 10px;
     }
 }

@@ -2,6 +2,8 @@ import React from 'react'
 import './About.scss'
 const About = () => {
   return (
+    <div>
+
     <div className='container main'>
 
       <pre className='code' id='about'>
@@ -29,6 +31,7 @@ const About = () => {
       <div className='me'>
          
         </div>
+    </div>
     </div>
   )
 }
