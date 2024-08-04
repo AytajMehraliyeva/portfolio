@@ -15,13 +15,14 @@ return (
           <h3>Aytaj Mehraliyeva</h3>
 
       <ul> 
-        <li>
-          <a href="#about">About me</a>
-          </li>
-
-        <li >
+         <li >
           <a href="#skills" >Skills</a>
           </li>
+        <li>
+          <a href="#aboutMain">About me</a>
+          </li>
+
+       
        
           <li >
           <a href="#education" >Education</a>
