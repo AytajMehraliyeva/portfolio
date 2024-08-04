@@ -15,7 +15,7 @@ const Education = () => {
         </div>
         <div className='educateSecond' id='second'>
             <div>
-                <span>September 2021 - Present</span>
+                <span>Sep 2021 - Present</span>
                 <FaUserGraduate className='icon'id='iconUni' />
                
 
@@ -23,16 +23,16 @@ const Education = () => {
                 <p><i>Information Technology</i></p>
             </div>
             <div>
-            <MdLaptopChromebook className='icon' id='icon' />
-                <span>March 2022-September 2022</span>
+            <MdLaptopChromebook className='icon' id='icon' style={{top:'50%'}} />
+                <span>Mar 2022 - Sep 2022</span>
                 <h4>Developia Academy</h4>
                 <p><i>Front-end</i></p>
             </div>
             <div>
             <FaCode className='icon' id='icon' />
-                <span>September 2023-January 2024</span>
+                <span>Sep 2023 - Jan 2024</span>
                 <h4>Code Academy</h4>
-                <p><i>Full-stack/Front-end</i></p>
+                <p><i>Full-stack / Front-end</i></p>
             </div>
         </div>
         </div>
