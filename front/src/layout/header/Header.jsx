@@ -8,8 +8,8 @@ const Header = () => {
   
 return (
   
-  <header>
-    <div className="container headerBox">
+  <header id='header' >
+    <div className="container headerBox" >
 
      
           <h3>Aytaj Mehraliyeva</h3>

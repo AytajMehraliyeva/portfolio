@@ -5,10 +5,15 @@ import Contact from '../../../companent/contact me/Contact'
 import Skills from '../../../companent/Skills/Skills'
 import Education from '../../../companent/education/Education'
 import About from '../../../companent/About/About'
+import { IoReturnDownBack } from "react-icons/io5";
+
 
 const Home = () => {
   return (
     <>
+    <a href='#header' className='back'>
+    <IoReturnDownBack  />
+    </a>
     <Contact/>
     <div className='opacity'>
     <div className='keyboard' id='keyboard'>
