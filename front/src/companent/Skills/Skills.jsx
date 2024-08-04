@@ -13,8 +13,32 @@ const Skills = () => {
     autoplay: true,
     speed: 2000,
     autoplaySpeed: 1000,
+    focusOnSelect: true,
+    pauseOnFocus: true,
     cssEase: "linear",
-    pauseOnHover: true,  
+    useCSS: true,
+    pauseOnHover: true, 
+    responsive:[
+      {
+        breakpoint:700,
+settings:{
+  slidesToShow: 4,
+}
+      },
+      {
+        breakpoint:480,
+       settings: {
+          slidesToShow:3
+        }
+      },
+      {
+        breakpoint:320,
+        settings:{
+          slidesToShow:2
+        }
+      }
+    ]
+ 
   };
 
   return (
