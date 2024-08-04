@@ -1,99 +1,94 @@
-.main {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    justify-content: space-between;
-    margin-top: 60px;
-}
-
-.me {
-    width: 26%;
-    margin: auto;
-    overflow: hidden;
-    border-radius: 20px;
-    height: 470px;
-    background-image: url('../../assets/Img/me.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: grayscale(100%);
-    transition: filter 0.6s ease, width 0.6s ease, height 0.6s ease;
-}
-
-.code {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
-    line-height: 1.5;
+.aboutContainer {
     width: 100%;
-    max-width: 55%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: white;
-    margin: 40px 0;
-    background: linear-gradient(to bottom, rgb(7, 0, 88), rgb(49, 0, 49));
-    transition: transform 0.3s ease;
-    padding: 20px;
-    border-radius: 15px;
-    background-color: rgba(0, 0, 44, 0);
-    height: auto;
-    white-space: pre-wrap;
-    overflow: auto;
-}
-
-.html {
-    width: 100%;
-    border-bottom: 1px solid white;
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-
-.code:hover {
-    transform: rotate(5deg) translate(10px, 0);
-    cursor: pointer;
-}
-
-.me:hover {
-    filter: grayscale(0%);
-    transform: scale(1.01);
-    cursor: pointer;
-}
-
-.keyword {
-    color: #c678dd;
-}
-
-.function {
-    color: #61afef;
-}
-
-.operator {
-    color: #56b6c2;
-}
-
-.parenthesis,
-.brace {
-    color: #abb2bf;
-}
-
-.tag {
-    color: #e06c75;
-}
-
-.attribute {
-    color: #d19a66;
-}
-
-.value {
-    color: #98c379;
-}
-
-.paragraph {
-    color: #e5c07b;
-}
-
-.pColor {
-    color: #ffffff;
+    background-image: url('../../assets/Img/walpaper.gif');
+    border: 1px solid rgba(255, 0, 0, 0);
+    background-attachment: fixed;
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        justify-content: space-between;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .me {
+        width: 250px;
+        height: 400px;
+        margin: auto;
+        overflow: hidden;
+        border-radius: 20px;
+        // height: 560px;
+        background-image: url('../../assets/Img/me.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        filter: grayscale(100%);
+        transition: filter 0.6s ease, width 0.6s ease, height 0.6s ease;
+    }
+    .code {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 22px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        margin: 40px auto;
+        background: linear-gradient(to bottom, rgb(7, 0, 88), rgb(49, 0, 49));
+        transition: transform 0.3s ease;
+        padding: 20px;
+        border-radius: 15px;
+        background-color: rgba(0, 0, 44, 0);
+        height: auto;
+        white-space: pre-wrap;
+        overflow: auto;
+    }
+    .html {
+        width: 100%;
+        border-bottom: 1px solid white;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .code:hover {
+        transform: rotate(5deg) translate(10px, 0);
+        cursor: pointer;
+    }
+    .me:hover {
+        filter: grayscale(0%);
+        transform: scale(1.01);
+        cursor: pointer;
+    }
+    .keyword {
+        color: #c678dd;
+    }
+    .function {
+        color: #61afef;
+    }
+    .operator {
+        color: #56b6c2;
+    }
+    .parenthesis,
+    .brace {
+        color: #abb2bf;
+    }
+    .tag {
+        color: #e06c75;
+    }
+    .attribute {
+        color: #d19a66;
+    }
+    .value {
+        color: #98c379;
+    }
+    .paragraph {
+        color: #e5c07b;
+    }
+    .pColor {
+        color: #ffffff;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -156,7 +151,7 @@
         margin: 10px 0;
     }
     .code {
-        max-width: 100%;
+        max-width: 90%;
     }
     .main {
         flex-direction: column;
@@ -172,9 +167,38 @@
     }
 }
 
-@media screen and (max-width:320px) {
-    #keyboard {
+@media screen and (max-width: 320px) {
+    .headSpan {
+        font-size: 14px;
+    }
+    .opacity {
+        height: 250px;
+        .welcome {
+            width: 95%;
+            font-size: 14px;
+        }
+    }
+    code {
+        font-size: 8px;
+        padding: 6px;
+        margin: 5px 0;
+    }
+    .code {
+        max-width: 100%;
+        height: 400px;
+    }
+    .main {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .me {
+        max-width: 100%;
+    }
+    .code {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .keyboard {
         background-size: cover;
-        background-attachment: unset;
     }
 }

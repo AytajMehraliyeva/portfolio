@@ -19,8 +19,9 @@ const Home = () => {
     <p data-text="I'm Aytaj Mehraliyeva">I'm Aytaj Mehraliyeva</p>
 </div>
 </div>
-<About/>
 <Skills/>
+<About/>
+
 <Education/>
         </>
   )
