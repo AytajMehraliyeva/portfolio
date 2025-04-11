@@ -1,27 +1,25 @@
 import React from 'react'
 import './Card.scss'
+
 const Card = () => {
   return (
   <>
-    <a href="https://www.mythrillfiction.com/the-dark-rider" alt="Mythrill" target="_blank">
-    <div className="card">
+  <div className='cards'>
+
+    <a href="https://practise5-aytaj.vercel.app/" alt="Mythrill" target="_blank">
+   
+    <div className="card"> 
+      <p>Wine</p>
       <div className="wrapper">
-        <img src="https://ggayane.github.io/css-experiments/cards/dark_rider-cover.jpg" className="cover-image" />
+        <img src="https://i.pinimg.com/564x/25/4b/0f/254b0f3880aaf47b5482a655f5c400e4.jpg" className="cover-image" />
       </div>
-      <img src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png" className="title" />
-      <img src="https://ggayane.github.io/css-experiments/cards/dark_rider-character.webp" className="character" />
+      
+    <img src='https://png.pngtree.com/png-vector/20230902/ourmid/pngtree-wine-clinking-glass-png-file-png-image_9427013.png' className="character" />
     </div>
   </a>
   
-  <a href="https://www.mythrillfiction.com/force-mage" alt="Mythrill" target="_blank">
-    <div className="card">
-      <div className="wrapper">
-        <img src="https://ggayane.github.io/css-experiments/cards/force_mage-cover.jpg" className="cover-image" />
-      </div>
-      <img src="https://ggayane.github.io/css-experiments/cards/force_mage-title.png" className="title" />
-      <img src="https://ggayane.github.io/css-experiments/cards/force_mage-character.webp" className="character" />
-    </div>
-  </a>
+  
+  </div>
   </>
   )
 }

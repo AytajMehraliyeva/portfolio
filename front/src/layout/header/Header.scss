@@ -39,8 +39,6 @@ header {
         font-size: 28px;
         white-space: nowrap;
         background-color: rgba(245, 245, 220, 0);
-        text-shadow: 1px 1px 2px white, 0 0 1em rgb(0, 156, 199), 0 0 0.2em rgba(48, 0, 48, 0.493);
-        color: rgb(95, 203, 249);
     }
     ul {
         list-style: none;
@@ -73,15 +71,6 @@ header {
     margin: 0 auto;
     width: 90%;
     max-width: 1200px;
-}
-
-@media screen and (min-width :1600px) {
-    .headerBox>h3 {
-        font-size: 50px;
-    }
-    .headerBox>ul>li>a {
-        font-size: 30px;
-    }
 }
 
 @media screen and (max-width :1016px) {

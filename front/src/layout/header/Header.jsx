@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.scss';
-
+import { Link } from 'react-router-dom'
 import { FaBars } from "react-icons/fa";
 
 
@@ -12,7 +12,7 @@ return (
     <div className="container headerBox" >
 
      
-          <h3>Aytaj Mehraliyeva</h3>
+          <h3><Link style={{textDecoration:'none',color:'rgb(95, 203, 249)',textShadow:'1px 1px 2px white, 0 0 1em rgb(0, 156, 199), 0 0 0.2em rgba(48, 0, 48, 0.493)'}} to={''}>Aytaj Mehraliyeva</Link></h3>
 
       <ul> 
          <li >
@@ -29,7 +29,7 @@ return (
           </li>
           
           <li>
-          <a href="#" >Projects</a>
+          <a href="#projects" >Projects</a>
           </li>
 
           <li>

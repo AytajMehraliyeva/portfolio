@@ -6,6 +6,7 @@ import Skills from '../../../companent/Skills/Skills'
 import Education from '../../../companent/education/Education'
 import About from '../../../companent/About/About'
 import { IoReturnDownBack } from "react-icons/io5";
+import Projects from '../../../companent/Projects/Projects'
 
 
 const Home = () => {
@@ -26,8 +27,8 @@ const Home = () => {
 </div>
 <Skills/>
 <About/>
-
 <Education/>
+<Projects/>
         </>
   )
 }
